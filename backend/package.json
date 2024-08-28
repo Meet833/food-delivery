@@ -5,7 +5,11 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-   "server": "nodemon server.js"
+   "server": "nodemon server.js",
+   "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
   },
   "author": "",
   "license": "ISC",
