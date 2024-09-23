@@ -65,6 +65,8 @@ import play_store from './play_store.png'
 import linkedin_icon from './linkedin_icon.png'
 import selector_icon from  './selector_icon.png'
 
+
+
 export const assets ={
     logo,
     add_icon,
@@ -427,4 +429,4 @@ export const food_list =[
 ]
 
 
-export const url = 'http://localhost:4000'
+export const url = "https://food-delivery-backend-16xn.onrender.com"
